@@ -1,7 +1,7 @@
 +++
 title = 'Tiny Stories Demo Event'
 date = 2023-12-26T03:25:41+04:00
-draft = true
+draft = false
 +++
 
 ### Tbilisi AI Lab Announces Breakthrough in Georgian Generative AI - A Step Towards Linguistic Inclusivity in AI

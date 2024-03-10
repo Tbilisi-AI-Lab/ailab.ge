@@ -2,14 +2,16 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://ailab.ge/en/sitemap.xml</loc>
+    <loc>//localhost:1313/en/sitemap.xml</loc>
+    
+      <lastmod>2023-12-26T03:25:41+04:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://ailab.ge/ka/sitemap.xml</loc>
+    <loc>//localhost:1313/ka/sitemap.xml</loc>
     
-      <lastmod>2023-12-26T00:14:47+04:00</lastmod>
+      <lastmod>2023-12-26T03:25:41+04:00</lastmod>
     
   </sitemap>
   

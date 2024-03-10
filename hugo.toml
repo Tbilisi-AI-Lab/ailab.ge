@@ -1,45 +1,7 @@
-baseURL = 'http://tbilisi-ai-lab.github.io/ailab.ge/'
-
-
-
-
+title = "AI LAB"
+baseURL = ""
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-
-[languages]
-  [languages.en]
-    title = "AI LAB"
-    languageName = "English"
-    tagline = "Tbilisi AI Lab"
-    weight = 1
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        name = "About"
-        url = "/#about"
-      [[languages.en.menu.main]]
-        name = "Blog"
-        url  = "/#blog"
-      [[languages.en.menu.main]]
-        name = "Contact"
-        url  = "/#contact"
-  [languages.ka]
-    title = "აი ლაბი"
-    tagline = "აი ლაბი"
-    languageName = "Georgian"
-    weight = 10
-    [[languages.ka.menu.main]]
-        name = "ჩვენ"
-        url = "/#about"
-        weight = 20
-      [[languages.ka.menu.main]]
-        name = "ამბები"
-        url  = "/#blog"
-        weight = 40
-      [[languages.ka.menu.main]]
-        name = "კავშირი"
-        url  = "/#contact"
-        weight = 50
-
 tags = ["AI", "Data Science", "ML", "LLM", "SLM"]
 languageCode = "en-us"
 config = "config.toml"
@@ -47,7 +9,7 @@ theme = "osprey"
 canonifyURLS = true
 googleAnalytics = ""
 disqusShortname = "tomanistor"
-disableKinds = ["taxonomy"] # This theme does not currently use "tag" and "category" taxonomies
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
 [Params]
   author = "AI Lab"
@@ -88,3 +50,39 @@ disableKinds = ["taxonomy"] # This theme does not currently use "tag" and "categ
   # Lazy loading with lazysizes
   lazyloading = true
 
+
+[languages]
+  [languages.en]
+    title = "AI LAB"
+    tagline = "Tbilisi AI Lab"
+    languageName = "English"
+    weight = 1
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/#about"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Blog"
+        url  = "/#blog"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url  = "/#contact"
+        weight = 4
+  [languages.ka]
+    title = "აი ლაბი"
+    tagline = "აი ლაბი"
+    languageName = "Georgian"
+    weight = 5
+      [[languages.ka.menu.main]]
+          name = "ჩვენ"
+          url = "/#about"
+          weight = 6
+      [[languages.ka.menu.main]]
+          name = "ამბები"
+          url  = "/#blog"
+          weight = 7
+      [[languages.ka.menu.main]]
+          name = "კავშირი"
+          url  = "/#contact"
+          weight = 8
